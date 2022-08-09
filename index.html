@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iCalculator</title>
+    <link href="./style/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/jquery-3.6.0.js"></script>
+  </head>
+  <body>
+    <div class="header text-white text-center m-5">
+      <p class="display-1">iCalculator</p>
+      <p>Designed &amp; Developed by Selim Günaydın</p>
+      <button id="dontClick" class="btn btn-light mt-4 px-4">
+        Hide / Show
+      </button>
+    </div>
+    <div class="calculator mb-5">
+      <div class="row justify-content-center w-100 h-100">
+        <div class="col-sm-12 col-lg-4 shadow-lg">
+          <div class="row">
+            <input
+              id="input"
+              type="text"
+              class="display p-4 border-0 display-2"
+            />
+          </div>
+          <div class="row">
+            <button class="operator btn rounded-0 p-5 col-6" value="AC">
+              AC
+            </button>
+            <button class="operator btn rounded-0 p-5 col-3" value="%">
+              %
+            </button>
+            <button class="operator btn rounded-0 p-5 col-3" value="/">
+              /
+            </button>
+          </div>
+          <div class="row">
+            <button class="btn rounded-0 p-5 col-3" value="7">7</button>
+            <button class="btn rounded-0 p-5 col-3" value="8">8</button>
+            <button class="btn rounded-0 p-5 col-3" value="9">9</button>
+            <button class="operator btn rounded-0 p-5 col-3" value="*">
+              *
+            </button>
+          </div>
+          <div class="row">
+            <button class="btn rounded-0 p-5 col-3" value="4">4</button>
+            <button class="btn rounded-0 p-5 col-3" value="5">5</button>
+            <button class="btn rounded-0 p-5 col-3" value="6">6</button>
+            <button class="operator btn rounded-0 p-5 col-3" value="-">
+              -
+            </button>
+          </div>
+          <div class="row">
+            <button class="btn rounded-0 p-5 col-3" value="1">1</button>
+            <button class="btn rounded-0 p-5 col-3" value="2">2</button>
+            <button class="btn rounded-0 p-5 col-3" value="3">3</button>
+            <button class="operator btn rounded-0 p-5 col-3" value="+">
+              +
+            </button>
+          </div>
+          <div class="row">
+            <button class="btn rounded-0 p-5 col-3" value="0">0</button>
+            <button class="operator btn rounded-0 p-5 col-3" value=".">
+              .
+            </button>
+            <button class="operator btn rounded-0 p-5 col-6" value="=">
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+    <script src="./script/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
