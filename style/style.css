@@ -2,7 +2,7 @@ body {
   background-color: #34495e;
 }
 
-.display {
+.display,.display-result {
   text-align: right;
   background-color: #2c3e50;
   color: white;
